@@ -1,0 +1,67 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    margin: 40px 0 0 0;
+    font-family: sans-serif;
+
+}
+
+h1 {
+
+    color: #0282F9;
+    font-size: 40px;
+
+}
+
+body .wrapper {
+
+    width: 920px;
+    height: 1200px;
+    margin: 0 auto;
+
+}
+
+.wrapper>img {
+
+    margin: 0 0 50px 0;
+
+}
+
+.featured,
+.whoswho {
+
+    width: 100%;
+
+    float: left;
+    position: relative;
+    margin: 0 0 50px 0;
+
+}
+
+.wrapper h1,
+.featured img,
+.whoswho img {
+
+    margin: 0 0 15px 0;
+
+}
+
+.item {
+
+    position: relative;
+    float: left;
+
+}
+
+.item.wonderwoman {
+
+    margin: 0 0 0 20px;
+
+}
